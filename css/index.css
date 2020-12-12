@@ -25,18 +25,16 @@ body {
   margin-left: 50px;
 }
 .jumbotron .title {
-  font-size: 59px;
+  font-size: 88px;
   font-weight: bold;
   color: #ffffff;
-  line-height: 25px;
   padding-top: 104px;
 }
 .jumbotron .subtitle {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 400;
   color: #ffffff;
-  line-height: 25px;
-  padding-top: 27px;
+  padding-top: 30px;
 }
 
 /* 标题背景 */
@@ -111,6 +109,14 @@ body {
   color: #000000;
   line-height: 36px;
   text-indent: 40px;
+}
+
+.contact {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 36px;
+  text-align: left;
 }
 
 /* 卡片相关 */
