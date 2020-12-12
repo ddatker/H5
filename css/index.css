@@ -1,0 +1,278 @@
+/* 引入字体 */
+body {
+  font-family: "SourceHanSansCN";
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+/* 大标题页 */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  padding: 0;
+  background-image: url(../images/banner.jpg);
+  background-repeat: round;
+  height: 981px;
+}
+.jumbotron .logo {
+  height: 58px;
+  margin-top: 101px;
+  margin-left: 50px;
+}
+.jumbotron .title {
+  font-size: 59px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 25px;
+  padding-top: 104px;
+}
+.jumbotron .subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 25px;
+  padding-top: 27px;
+}
+
+/* 标题背景 */
+.overview {
+  text-align: center;
+  background-color: transparent;
+  padding-top: 100px;
+}
+
+.highlights {
+  text-align: center;
+  background-color: transparent;
+  padding-top: 100px;
+}
+
+.agenda {
+  text-align: center;
+  background-color: transparent;
+  padding-top: 100px;
+}
+
+.speakers {
+  text-align: center;
+  background-color: transparent;
+  padding-top: 100px;
+}
+
+.live {
+  text-align: center;
+  background-color: transparent;
+  padding-top: 100px;
+}
+
+/* 大抬头 */
+.h1 {
+  font-size: 72px;
+  font-weight: bold;
+  color: #000000;
+  line-height: 0px;
+  padding-bottom: 68px;
+}
+
+.h1-inverse {
+  font-size: 72px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 0px;
+  padding-bottom: 68px;
+}
+
+/* 副抬头 */
+.h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 0px;
+  padding-bottom: 100px;
+}
+
+.h2-inverse {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 0px;
+  padding-bottom: 100px;
+}
+
+/* 正文 */
+.paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 36px;
+  text-indent: 40px;
+}
+
+/* 卡片相关 */
+.cards {
+  padding-bottom: 50px;
+}
+
+.card {
+  background-color: rgb(0, 0, 0);
+}
+
+.inverse-bg {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px transparent;
+}
+
+.card-deck {
+  padding-top: 11px;
+}
+
+.card-img-top {
+  width: 85px;
+  height: 85px;
+  align-self: center;
+  margin-top: 68px;
+}
+
+.card-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 33px;
+}
+
+.card-text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 26px;
+  text-align: justify;
+  padding: 0 12%;
+}
+
+/* 议程相关 */
+.timetable {
+  background-color: transparent;
+  padding-top: 70px;
+}
+
+.timetable .heading {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1;
+  color: #333333;
+  padding-left: 137px;
+}
+
+.timetable .subheading {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #333333;
+  padding-left: 11px;
+}
+
+.timetable .title {
+  background-image: url(../images/background/蓝色带logo.png);
+  background-position: right;
+  font-size: 21px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.timetable .title .title-text {
+  margin-left: 137px;
+  padding-top: 15px;
+}
+
+.table {
+  padding-top: 26px;
+  padding-left: 137px;
+  padding-bottom: 54px;
+}
+
+.table .content {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 50px;
+}
+
+.strong {
+  font-size: 20px;
+  font-weight: 900;
+  color: #333333;
+  line-height: 50px;
+  padding-left: 95px;
+}
+
+.link-logo {
+  width: 179px;
+  height: 180px;
+  border-radius: 13px;
+  align-self: center;
+}
+
+.link-text {
+  font-size: 32px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 0px;
+  align-self: center;
+  margin-top: revert;
+}
+
+.QRcode {
+  height: 450px;
+  width: 342px;
+  align-self: center;
+  margin-bottom: 318px;
+  margin-top: 340px;
+}
+
+.navbar {
+  background-image: url(../images/nav-background-image.png);
+  height: 63px;
+  /* background-image: linear-gradient(to bottom, #f7f7f7 0%, #eee 100%);
+  border: 1px solid #e5e5e5; */
+}
+
+.nav-justified > li > a {
+  color: white;
+  font-size: 30px;
+}
+
+/* .container {
+  padding: 0;
+  margin-left: 0;
+} */
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .navbar-nav .nav-item {
+    -ms-flex: 1 0 auto;
+    -webkit-box-flex: 1;
+    flex: 1 0 auto;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
