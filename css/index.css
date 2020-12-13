@@ -310,7 +310,7 @@ body {
   margin-left: 0;
 } */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .navbar-nav {
     display: -ms-flexbox;
     display: -webkit-box;
@@ -322,4 +322,4 @@ body {
     -webkit-box-flex: 1;
     flex: 1 0 auto;
   }
-}
+} */
